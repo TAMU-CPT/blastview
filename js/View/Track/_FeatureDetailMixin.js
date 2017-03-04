@@ -73,7 +73,7 @@ return declare(FeatureDetailMixin, {
                 'div',
                 {
                     className: 'alignment_container',
-                    innerHTML: '<pre>' + f.get("Blast_qseq") + "\n" + f.get("Blast_mseq") + "\n" + f.get("Blast_sseq")  + '</pre>',
+                    innerHTML: '<pre>Query: ' + f.get("Blast_qseq") + "\nMatch: " + f.get("Blast_mseq") + "\nSbjct: " + f.get("Blast_sseq")  + '</pre>',
                 },
                 container
             );
