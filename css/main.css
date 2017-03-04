@@ -1,0 +1,6 @@
+.alignment_container pre {
+    border: none;
+    padding: .5em;
+    background: #eeeeee;
+    overflow-x: auto;
+}
