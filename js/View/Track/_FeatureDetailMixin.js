@@ -75,7 +75,7 @@ return declare(FeatureDetailMixin, {
                     className: 'alignment_container',
                     innerHTML: '<pre>Query: ' + f.get("Blast_qseq") + "\nMatch: " + f.get("Blast_mseq") + "\nSbjct: " + f.get("Blast_sseq")  + '</pre>',
                 },
-                container
+                atElement
             );
         }
     },
